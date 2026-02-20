@@ -1,5 +1,5 @@
 # pdvrdt_rust
-***This is an experimental Rust port of my C++ steganography tool [***jdvrif***](https://github.com/CleasbyCode/pdvrdt)***
+***This is an experimental Rust port of my C++ steganography tool [***pdvrdt***](https://github.com/CleasbyCode/pdvrdt)***
 
 A fast steganography command-line tool used for embedding and extracting any file type via a **PNG** cover image.  
 
