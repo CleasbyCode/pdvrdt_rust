@@ -29,7 +29,7 @@ Usage: pdvrdt conceal [-m|-r] <cover_image> <secret_file>
        pdvrdt recover <cover_image>  
        pdvrdt --info
 
-user1@mx:~/Desktop$ pdvrdt conceal your_cover_image.png your_secret_file.doc
+$ pdvrdt conceal your_cover_image.png your_secret_file.doc
 
 Platform compatibility for output image:-
 
@@ -47,7 +47,7 @@ Important: Keep your PIN safe, so that you can extract the hidden file.
 
 Complete!
         
-user1@mx:~/Desktop$ pdvrdt recover prdt_12462.png
+$ pdvrdt recover prdt_12462.png
 
 PIN: *******************
 
