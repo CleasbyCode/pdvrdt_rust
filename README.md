@@ -27,11 +27,11 @@ Build complete. Binary at 'target/release/pdvrdt'.
 $ sudo cp target/release/pdvrdt /usr/bin
 $ pdvrdt 
 
-Usage: pdvrdt conceal [-m|-r] <cover_image> <secret_file>
-       pdvrdt recover <cover_image>  
-       pdvrdt --info
+Usage: pdvrdt-rs conceal [-m|-r] <cover_image> <secret_file>
+       pdvrdt-rs recover <cover_image>  
+       pdvrdt-rs --info
 
-$ pdvrdt conceal your_cover_image.png your_secret_file.doc
+$ pdvrdt-rs conceal your_cover_image.png your_secret_file.doc
 
 Platform compatibility for output image:-
 
@@ -49,7 +49,7 @@ Important: Keep your PIN safe, so that you can extract the hidden file.
 
 Complete!
         
-$ pdvrdt recover prdt_12462.png
+$ pdvrdt-rs recover prdt_12462.png
 
 PIN: *******************
 
@@ -84,11 +84,11 @@ pdvrdt ***conceal*** mode platform options:
  
   "***-m***" - To create compatible "*file-embedded*" ***PNG*** images for posting on the ***Mastodon*** platform, you must use the ***-m*** option with ***conceal*** mode.
   ```console
-  $ pdvrdt conceal -m my_image.png hidden.doc
+  $ pdvrdt-rs conceal -m my_image.png hidden.doc
   ```
   "***-r***" - To create compatible "*file-embedded*" ***PNG*** images for posting on the ***Reddit*** platform, you must use the ***-r*** option with ***conceal*** mode.
   ```console
-  $ pdvrdt conceal -r my_image.png secret.mp3 
+  $ pdvrdt-rs conceal -r my_image.png secret.mp3 
    ```
    From the ***Reddit*** site, select "***Create Post***" followed by "***Images & Video***" tab, to attach and post your ***PNG*** image.
     
