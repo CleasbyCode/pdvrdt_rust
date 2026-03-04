@@ -22,10 +22,10 @@ $ sudo apt install libsodium-dev pkg-config
 $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 $ cargo build --release
 
-Build complete. Binary at 'target/release/pdvrdt'.
+Build complete. Binary at 'target/release/pdvrdt-rs'.
 
-$ sudo cp target/release/pdvrdt /usr/bin
-$ pdvrdt 
+$ sudo cp target/release/pdvrdt-rs /usr/bin
+$ pdvrdt-rs
 
 Usage: pdvrdt-rs conceal [-m|-r] <cover_image> <secret_file>
        pdvrdt-rs recover <cover_image>  
