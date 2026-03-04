@@ -58,13 +58,6 @@ Extracted hidden file: your_secret_file.doc (6165 bytes).
 Complete! Please check your file.
 
 ```
-
-https://github.com/user-attachments/assets/76732196-815b-45ac-b71d-6e1aca672e25  
-
-https://github.com/user-attachments/assets/7a1557d1-4772-4d3d-94a6-ec58d0977a59  
-
-*Image credit: ***"Red_Dragon / [@ultra_arcane](https://x.com/ultra_arcane)"****
-
 ## Compatible Platforms
 *Posting size limit measured by the combined size of the cover image + compressed data file:* 
  
@@ -74,6 +67,12 @@ https://github.com/user-attachments/assets/7a1557d1-4772-4d3d-94a6-ec58d0977a59
 *X-Twitter image dimension size limits:* 
 * ****PNG-32/24*** (*Truecolor*) **68x68** Min. - **900x900** Max.
 * ***PNG-8*** (*Indexed-color*) **68x68** Min. - **4096x4096** Max.
+
+https://github.com/user-attachments/assets/76732196-815b-45ac-b71d-6e1aca672e25  
+
+https://github.com/user-attachments/assets/7a1557d1-4772-4d3d-94a6-ec58d0977a59  
+
+*Image credit: ***"Red_Dragon / [@ultra_arcane](https://x.com/ultra_arcane)"****
 
 pdvrdt ***mode*** arguments:
  
