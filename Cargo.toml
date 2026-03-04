@@ -1,7 +1,12 @@
 [package]
 name = "pdvrdt"
-version = "4.5.0"
+version = "4.6.0"
 edition = "2021"
+autobins = false
+
+[[bin]]
+name = "pdvrdt-rs"
+path = "src/main.rs"
 
 [dependencies]
 sodiumoxide = "0.2"
