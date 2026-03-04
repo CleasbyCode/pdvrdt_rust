@@ -8,7 +8,9 @@ There is also a [***Web edition***](https://cleasbycode.co.uk/pdvrdt/app/), whic
 ![Demo Image](https://github.com/CleasbyCode/pdvrdt_rust/blob/main/demo_image/prdt_395918.png)  
 *Image: "Wolf" / ***PIN: 7699785107511381336****
 
-Unlike the common steganography method of concealing data within the pixels of a cover image ([***LSB***](https://ctf101.org/forensics/what-is-stegonagraphy/)), ***pdvrdt*** hides files within various ***chunks*** of a ***PNG*** image, such as iCCP and IDAT. You can conceal any file type up to ***2GB***, although compatible hosting sites (*listed below*) have their own ***much smaller*** size limits and *other requirements.  
+Unlike the common steganography method of concealing data within the pixels of a cover image ([***LSB***](https://ctf101.org/forensics/what-is-stegonagraphy/)), ***pdvrdt*** hides files within various ***chunks*** of a ***PNG*** image, such as iCCP and IDAT. 
+
+You can conceal any file type up to ***2GB***, although compatible hosting sites (*listed below*) have their own ***much smaller*** size limits and *other requirements.  
 
 For increased storage capacity and better security, your embedded data file is compressed with ***zlib*** and encrypted using the ***libsodium*** cryptographic library.  
 
