@@ -13,7 +13,7 @@ pub fn display_info() {
     print!(
         r#"
 
-PNG Data Vehicle (pdvrdt v4.6)
+PNG Data Vehicle (pdvrdt v4.7)
 Created by Nicholas Cleasby (@CleasbyCode) 24/01/2023.
 
 pdvrdt is a metadata "steganography-like" command-line tool used for concealing and extracting
@@ -164,3 +164,4 @@ impl ProgramArgs {
         bail!("{}", usage);
     }
 }
+
