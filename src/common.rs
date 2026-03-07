@@ -1,4 +1,4 @@
-// PNG Data Vehicle (pdvrdt v4.6) Created by Nicholas Cleasby (@CleasbyCode) 24/01/2023
+// PNG Data Vehicle (pdvrdt v4.7) Created by Nicholas Cleasby (@CleasbyCode) 24/01/2023
 
 #[allow(dead_code)]
 pub const TAG_BYTES: usize = 16; // crypto_secretbox_MACBYTES
